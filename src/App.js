@@ -64,7 +64,7 @@ function handleClearTodos () {
     </div>
     <div className="todo-list">
     {/* <div> {todos.filter(todo => !todo.complete).length} left to do </div> */}
-      <h3> to do's </h3>
+      <h3> my list </h3>
      <TodoList todos ={todos} toggleTodo={toggleTodo}/>
       </div>
     </div>

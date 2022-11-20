@@ -31,6 +31,7 @@ body {
 
 .header {
     align-items: center;
+    border: 8px dotted white;
     font-family: 'Sono', sans-serif;
     border-radius: 4px;
     background-color: rgb(241, 216, 241);
@@ -44,7 +45,7 @@ body {
 .todo-list {
     background: rgb(232, 208, 133);
     font-family: 'Sono', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     padding: 40px;
@@ -57,12 +58,26 @@ body {
 
 .todo-list h3 {
     margin-top: 0;
-    font-family: 'Great Vibes', cursive;
-    font-size: 40px;
+    font-family: 'Sono', sans-serif;
+    font-size: 30px;
     margin-bottom: 40px;
     text-align: center;
+    color:rgb(169, 158, 37);
 }
 
+
+
+
+input {
+    border: 1px solid rgb(19, 12, 12);
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 80%;
+    background-color: rgb(208, 168, 208);
+    color:white;
+}
 
 .button-box {
     display: flex;
