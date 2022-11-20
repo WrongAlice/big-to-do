@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    background: rgb(247, 195, 195);
+    color: rgb(19, 12, 12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.App {
+    background: rgb(232, 208, 133);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    margin-bottom:10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header {
+    align-items: center;
+    font-family: 'Sono', sans-serif;
+    border-radius: 4px;
+    background-color: rgb(241, 216, 241);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.todo-list {
+    background: rgb(232, 208, 133);
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.todo-list h3 {
+    margin-top: 0;
+    text-decoration: underline;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.button-box {
+    display: flex;
+   
+}
+button {
+    background-color: rgb(241, 216, 241);
+    font-family: 'Sono', sans-serif;
+    border: 1px solid #000;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 16px;
+    transition: all 0.2s ease-in-out;
+    margin: 15px 5px 5px 0px;
+   
+}
