@@ -31,7 +31,7 @@ body {
 
 .header {
     align-items: center;
-    border: 8px dotted white;
+    border:2px solid white;
     font-family: 'Sono', sans-serif;
     border-radius: 4px;
     background-color: rgb(241, 216, 241);
@@ -62,7 +62,7 @@ body {
     font-size: 30px;
     margin-bottom: 40px;
     text-align: center;
-    color:rgb(169, 158, 37);
+    color:rgb(20, 19, 21);
 }
 
 
@@ -75,8 +75,8 @@ input {
     padding: 8px;
     margin-bottom: 20px;
     width: 80%;
-    background-color: rgb(208, 168, 208);
-    color:white;
+    background-color: rgb(242, 207, 242);
+    color:rgb(18, 17, 19);
 }
 
 .button-box {
