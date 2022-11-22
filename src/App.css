@@ -10,8 +10,9 @@ body {
     justify-content: center;
     font-family: sans-serif;
     height: 100vh;
-    margin: 0;
+    margin: 30px;
     padding: 0;
+    height:auto;
 
 }
 
