@@ -1,3 +1,4 @@
 React to do list
-using local stoage to persist data
+using local storage to persist data.
+Also contains: Cyrpess tests
 https://big-to-do.vercel.app
