@@ -8,10 +8,23 @@ describe('example to-do app', () => {
 
   it('displays Title', () => {
     cy.get('h1').should('have.text', ' to-do list')
-
-    
-   
+ 
   })
+
+it('displays add button', () => {
+  cy.get('button').contains('Add Item').should('be.visible')
+})
+  
+
+it('lets you type into the input field', () => {
+  cy.get('input').type('hello world').should('have.value', 'hello world')
+})
+
+
+  it('displays clear button', () => {
+    cy.get('button').contains('Clear Item')
+  })
+
 
    it('can add new todo items', () => {
   
