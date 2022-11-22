@@ -1,3 +1,3 @@
 React to do list
-using local stoage to persista data
+using local stoage to persist data
 https://big-to-do.vercel.app
